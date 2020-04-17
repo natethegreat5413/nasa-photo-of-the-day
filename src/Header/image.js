@@ -5,7 +5,7 @@ function Image(props) {
     return(
         
     <div>
-        <img src={props.hdurl}/>
+        <img src={props.hdurl} alt='IMAGE of the day'/>
     </div>
     )
 }
