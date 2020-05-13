@@ -1,7 +1,23 @@
-.image{
-    width:100%;
+
+img{
+    margin: 0 auto;
+    width:80%;
+    height: 50vh;
+    border-radius: 20px
 
 }
-img{
-    width:100%;
+.img-title{
+    display:flex;
+    flex-direction: column;
 }
+p{
+    width: 80%;
+    margin: 0 auto;
+}
+.pDiv{
+    padding: 20px 0;
+}
+/* .wrapperDiv{
+    display:flex;
+    flex-direction: row;
+} */

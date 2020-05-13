@@ -1,11 +1,11 @@
 import React from 'react'
 
 
-function Footer(props){
+function Footer(){
     
     return(
-        <div className="description-container">
-            <p className="description">{props.description}</p>
+        <div className="bottom-content">
+            <p>No Copywriting</p>
         </div>
     )
 }

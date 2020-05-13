@@ -24,13 +24,13 @@ function App() {
     
     <div className="App">
       <div className="header-container">
-        <Header title={nasaData.title} date={nasaData.date}/>
+        <Header date={nasaData.date}/>
       </div>
       <div className="middle-container">
-        <Middle hdurl={nasaData.hdurl}/>
+        <Middle title={nasaData.title} hdurl={nasaData.hdurl} explanation={nasaData.explanation}/>
       </div>
       <div className="bottom-container">
-        <Footer description={nasaData.description}/>
+        <Footer />
       </div>
       
     </div>
