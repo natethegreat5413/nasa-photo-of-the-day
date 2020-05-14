@@ -5,7 +5,7 @@ import Header from './Header/Header'
 import Middle from './MiddleContent/Middle'
 import Footer from './Footer/Footer'
 
-// const url = 'https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY'
+
 
 function App() {
   const [nasaData, setNasaData] = useState([])
