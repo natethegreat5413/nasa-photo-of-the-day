@@ -1,5 +1,5 @@
 import React from 'react'
-import { Badge } from 'reactstrap';
+// import { Badge } from 'reactstrap';
 import styled from 'styled-components'
 
 const StyledFooter = styled.footer`

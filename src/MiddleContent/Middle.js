@@ -13,17 +13,25 @@ const StyledImg = styled.img`
   0 100px 80px rgba(0, 0, 0, 0.12)
 ;
     margin: 2% 0;
+    transition: transform .2s;
+
+    &:hover {
+        transform: scale(1.2)
+    }
+
+    
 
 `
-const StyledMiddle = styled.div`
-
-    background-image: url("StarryNight.jpg");
+const StyledParagraph = styled.p`
+    margin: 0 auto;
+    width:80%;
+    padding: 10px;
 `
 
 
 function Middle(props){
     return(
-    <StyledMiddle className='wrapperDiv'>
+    <div className='wrapperDiv'>
         
         <div className='img-title'>
             <h2>{props.title}</h2>
@@ -31,10 +39,10 @@ function Middle(props){
          </div>  
 
          <div className='pDiv'> 
-            <p className="description">{props.explanation}</p>
+            <StyledParagraph className="description">{props.explanation}</StyledParagraph>
             </div>
             
-    </StyledMiddle>
+    </div>
     )
 }
 
